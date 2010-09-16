@@ -3,7 +3,7 @@
 <repository name='file:/C:/Development/Workspaces/SMTP/update/ - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.compressed' value='false'/>
-    <property name='p2.timestamp' value='1284672216736'/>
+    <property name='p2.timestamp' value='1284672625248'/>
   </properties>
   <units size='30'>
     <unit id='com.foosbar.mailsnag.feature.jar' version='0.1.0'>
