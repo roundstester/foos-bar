@@ -3,7 +3,7 @@
 <repository name='file:/C:/Development/Workspaces/SMTP/update/ - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.compressed' value='false'/>
-    <property name='p2.timestamp' value='1284673807948'/>
+    <property name='p2.timestamp' value='1284673918101'/>
   </properties>
   <units size='9'>
     <unit id='tooling.source.default' version='1.0.0' singleton='false'>
