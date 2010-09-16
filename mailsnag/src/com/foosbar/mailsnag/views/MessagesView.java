@@ -37,6 +37,7 @@ import org.eclipse.swt.widgets.Menu;
 import org.eclipse.swt.widgets.Table;
 import org.eclipse.swt.widgets.TableColumn;
 import org.eclipse.ui.IActionBars;
+import org.eclipse.ui.IEditorRegistry;
 import org.eclipse.ui.IWorkbenchActionConstants;
 import org.eclipse.ui.IWorkbenchPage;
 import org.eclipse.ui.PartInitException;
@@ -316,8 +317,8 @@ public class MessagesView extends ViewPart {
         					IFileStore fileStore = EFS.getLocalFileSystem().getStore(new Path(fileToOpen.getAbsolutePath()));
         					if (!fileStore.fetchInfo().isDirectory() && fileStore.fetchInfo().exists()) {
         					    try {
-        					    	//IDE.openEditor(page, fileToOpen.toURI(), IEditorRegistry.SYSTEM_EXTERNAL_EDITOR_ID, true);
-        					    	IDE.openEditor(page, fileToOpen.toURI(), "multitab_editor.editors.MultiPageEditor", true);
+        					    	IDE.openEditor(page, fileToOpen.toURI(), IEditorRegistry.SYSTEM_EXTERNAL_EDITOR_ID, true);
+        					    	//IDE.openEditor(page, fileToOpen.toURI(), "multitab_editor.editors.MultiPageEditor", true);
         					    } catch (PartInitException e) {
         					        /* some code */
         					    }
