@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.foosbar.mailsnag_0.2.0.beta.jar" id="com.foosbar.mailsnag" version="0.2.0.beta">
+   <feature url="features/com.foosbar.mailsnag_0.2.1.beta.jar" id="com.foosbar.mailsnag" version="0.2.1.beta">
       <category name="Foos-Bar"/>
    </feature>
    <category-def name="Foos-Bar" label="Foos-Bar Development"/>
