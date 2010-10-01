@@ -3,14 +3,14 @@
 <repository name='Update Site' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='2'>
     <property name='p2.compressed' value='false'/>
-    <property name='p2.timestamp' value='1285734187560'/>
+    <property name='p2.timestamp' value='1285951497073'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
     <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='8'>
+  <artifacts size='10'>
     <artifact classifier='osgi.bundle' id='com.foosbar.mailsnag' version='0.1.3'>
       <properties size='3'>
         <property name='artifact.size' value='46786'/>
@@ -22,6 +22,12 @@
       <properties size='2'>
         <property name='artifact.size' value='5020'/>
         <property name='download.size' value='5020'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.foosbar.mailsnag' version='0.2.3.beta'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='342842'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.foosbar.mailsnag' version='0.1.5'>
@@ -43,6 +49,12 @@
         <property name='download.size' value='5019'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.foosbar.mailsnag' version='0.2.3.beta'>
+      <properties size='2'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='4765'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='com.foosbar.mailsnag' version='0.2.0.beta'>
       <properties size='3'>
         <property name='artifact.size' value='334766'/>
@@ -50,16 +62,16 @@
         <property name='download.contentType' value='application/zip'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='com.foosbar.mailsnag' version='0.2.1.beta'>
-      <properties size='2'>
-        <property name='download.contentType' value='application/zip'/>
-        <property name='download.size' value='4764'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='com.foosbar.mailsnag' version='0.2.1.beta'>
       <properties size='2'>
         <property name='artifact.size' value='4096'/>
         <property name='download.size' value='337941'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.foosbar.mailsnag' version='0.2.1.beta'>
+      <properties size='2'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='4764'/>
       </properties>
     </artifact>
   </artifacts>
