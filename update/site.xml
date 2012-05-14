@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.foosbar.mailsnag_1.0.1.jar" id="com.foosbar.mailsnag" version="1.0.1">
+      <category name="Foos-Bar"/>
+   </feature>
+   <feature url="features/com.foosbar.mailsnag_1.0.3.jar" id="com.foosbar.mailsnag" version="1.0.3">
+      <category name="Foos-Bar"/>
+   </feature>
+   <feature url="features/com.foosbar.mailsnag_1.0.5.jar" id="com.foosbar.mailsnag" version="1.0.5">
+      <category name="Foos-Bar"/>
+   </feature>
+   <feature url="features/com.foosbar.mailsnag_1.0.7.jar" id="com.foosbar.mailsnag" version="1.0.7">
+      <category name="Foos-Bar"/>
+   </feature>
+   <category-def name="Foos-Bar" label="Foos-Bar Development"/>
+</site>
