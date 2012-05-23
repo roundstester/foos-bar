@@ -1,11 +1,5 @@
 #summary Frequently Asked Questions
 
-= Introduction =
-
-Hopefully you find the following helpful
-
-
-= Details =
 *1. Unhandled event loop exception - No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]*
 
 See post at http://blog.foos-bar.com/2012/05/eclipse-rcp-development-browser-control.html
