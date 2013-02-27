@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
+   <description url="http://foosbar.github.com/update/site.xml">
+      The update site has moved to Github.
+   </description>
    <feature url="features/com.foosbar.mailsnag_1.0.1.jar" id="com.foosbar.mailsnag" version="1.0.1">
       <category name="Foos-Bar"/>
    </feature>
@@ -28,6 +31,9 @@
       <category name="Foos-Bar"/>
    </feature>
    <feature url="features/com.foosbar.mailsnag_1.3.3.jar" id="com.foosbar.mailsnag" version="1.3.3">
+      <category name="Foos-Bar"/>
+   </feature>
+   <feature url="features/com.foosbar.mailsnag_1.3.4.jar" id="com.foosbar.mailsnag" version="1.3.4">
       <category name="Foos-Bar"/>
    </feature>
    <category-def name="Foos-Bar" label="Foos-Bar Development"/>
