@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<site>
+<site url="http://foosbar.github.com/update/site.xml">
    <feature url="features/com.foosbar.mailsnag_1.0.1.jar" id="com.foosbar.mailsnag" version="1.0.1">
       <category name="Foos-Bar"/>
    </feature>
